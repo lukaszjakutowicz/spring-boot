@@ -1,0 +1,2 @@
+### GET find product by id
+GET localhost:8080/product/1

@@ -1,0 +1,13 @@
+### PUT update product
+PUT localhost:8080/product/1
+accept: application/json
+content-type: application/json
+
+{
+  "id": 1,
+  "name": "Key locker",
+  "price": 21.99,
+  "currency": "PLN"
+}
+
+###

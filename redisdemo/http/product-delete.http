@@ -1,0 +1,2 @@
+### DELETE fetch all products
+DELETE localhost:8080/product/1

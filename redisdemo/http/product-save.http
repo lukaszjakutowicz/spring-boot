@@ -1,0 +1,13 @@
+### POST save product
+POST localhost:8080/product
+accept: application/json
+content-type: application/json
+
+{
+  "id": 2,
+  "name": "Key locker 2",
+  "price": 52.00,
+  "currency": "PLN"
+}
+
+###
