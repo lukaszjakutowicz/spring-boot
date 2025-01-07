@@ -1,0 +1,15 @@
+version: '3'
+services:
+  spring-on-docker:
+    container_name: spring-on-docker
+    build:
+      dockerfile: ./src/Dockerfile
+    image: spring-on-docker-image:latest
+    ports:
+      - "8888:8080"
+    networks:
+      - default
+
+networks:
+  default:
+    driver: bridge
